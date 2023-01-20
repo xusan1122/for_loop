@@ -7,7 +7,7 @@ Return:
   Int: answer
 */
   num answer = 0;
-  for (int i = 0; i < numbers.length; i += 1) {
+  for (int i = 0; i < numbers.length; i+= 1) {
     if (numbers[i] % 2 == 1) {
       answer += numbers[i];
     }
