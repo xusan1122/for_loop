@@ -6,7 +6,13 @@ Args:
 Return: 
   Int: answer
 */
-  return 0;
+  num answer = 0;
+  for (int i = 0; i < numbers.length; i++) {
+    answer += numbers[i];
+  }
+  return answer.toInt();
 }
 
-void main() {}
+void main() {
+  print(func([1, 2, 3, 4, 6]));
+}
